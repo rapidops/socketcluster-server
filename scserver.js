@@ -8,7 +8,7 @@ var url = require('url');
 var domain = require('sc-domain');
 var crypto = require('crypto');
 var uuid = require('node-uuid');
-var scSimpleBroker = require('sc-simple-broker');
+var scSimpleBroker = require('sc-redis-broker');
 
 var scErrors = require('sc-errors');
 var AuthTokenExpiredError = scErrors.AuthTokenExpiredError;
