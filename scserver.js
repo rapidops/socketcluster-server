@@ -25,7 +25,7 @@ var SCServer = function (options) {
 
   var opts = {
     brokerEngine: scSimpleBroker,
-    wsEngine: 'uws',
+    wsEngine: 'ws',
     allowClientPublish: true,
     ackTimeout: 10000,
     handshakeTimeout: 10000,
