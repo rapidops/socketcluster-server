@@ -15,7 +15,7 @@
     "sc-formatter": "3.0.x",
     "sc-redis-broker": "git+https://github.com/rapidops/sc-redis-broker.git",
     "uws": "100.0.1",
-    "ws": "1.1.1"
+    "ws": "7.2.1"
   },
   "devDependencies": {},
   "scripts": {
